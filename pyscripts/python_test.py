@@ -12,6 +12,6 @@ func1()
 
 
 
-print("WElcome to devasc")
+print("Welcome to devasc")
 
 
