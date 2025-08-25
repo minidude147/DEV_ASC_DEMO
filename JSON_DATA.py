@@ -66,17 +66,21 @@ router_dict = {
 router_json = json.dumps(router_dict)
 
 
-
-
-
-
-
-
 print(router_json)
+print(type(router_json))
+print(type(router_dict))
+
+
+
+#print(router_json)
 
 
 
 
-with open("data.json" , "w") as file:
-    json.dump(router_dict , file , indent = 2 )
+#with open("data.json" , "w") as file:
+ #   json.dump(router_dict , file , indent = 2 )
 
+#json.load = loads from json file into ram
+#json.loads = takes json data which is in string format and turns it into a dict
+#json.dump = takes python dict and writes it to a json file from within python
+#json.dumps  = takes a python dict and converts it to a string object in ram
