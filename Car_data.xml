@@ -1,0 +1,55 @@
+<automobile>
+    <make id = "ford">
+    </make>
+    
+    <model id = "mustang">
+    </model>
+
+    <horsepower>350</horsepower>
+
+    <tire_width>255/45/18</tire_width>
+
+
+
+    <drivers>
+        <name1>jacob</name1>
+        <name2>jordan</name2>
+        <name3>Jett</name3>
+    </drivers>
+    <laptimes track = "Laguna Seca">
+        <time1>5</time1>
+        <time2>7</time2>
+        <time3>10</time3>
+        <weather>
+            <sunny>True</sunny>
+            <rainy>False</rainy>
+            <cloudy>False</cloudy>
+        </weather>
+
+    </laptimes>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</automobile>        
+
+
+
+
+
+
+
+
