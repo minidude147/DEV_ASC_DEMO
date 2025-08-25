@@ -1,22 +1,22 @@
 <router>
     <hostname>R1</hostname>
-    <interfaces>
-        <interface id = 0 enabled ="true">
-            <name>gigabitEthernet0/0</name>
-            <ip>192.168.1.254</ip>
-            <mask>255.255.255.0</mask>
-        
-        
-        </interface id = 1 enabled ="true">
-            <name>gigabitEthernet0/1</name>
-            <ip>192.168.1.253</ip>
-            <mask>255.255.255.0</mask>
-        </interface>    
+        <interfaces>
+            <interface id = "0" enabled = "true">
+                <name>gigabitEthernet0/0</name>
+                <ip>192.168.1.254</ip>
+                <mask>255.255.255.0</mask>
+
+            </interface>
+            <interface id = "1" enabled ="true">
+                <name>gigabitEthernet0/1</name>
+                <ip>192.168.1.253</ip>
+                <mask>255.255.255.0</mask>
+            </interface>    
 
 
 
 
-    </interfaces>
+        </interfaces>
 
 
     <routing>
