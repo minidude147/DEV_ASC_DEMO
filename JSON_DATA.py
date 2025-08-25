@@ -1,4 +1,11 @@
-{ 
+import json
+
+
+
+# with open("R1.json") as file:
+#     data = json.load(file)
+
+router_dict = {
 "router": { 
         "hostname":"R1" , 
         "interfaces": [
@@ -32,7 +39,7 @@
 
 
 
-                     ]
+                         ]
 
 
 
@@ -47,21 +54,6 @@
  }
 
 
-
-
-
-
-
-
-
-
-
-        
-
-
-
-
-
 }
 
 
@@ -71,6 +63,7 @@
 
 
 
+router_json = json.dumps(router_dict)
 
 
 
@@ -79,10 +72,11 @@
 
 
 
+print(router_json)
 
 
 
 
+with open("data.json" , "w") as file:
+    json.dump(router_dict , file , indent = 2 )
 
-
-}
